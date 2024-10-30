@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    margin: 0px 0;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background: #ffffff;
+    color: orangered;
+}
+
+.CabecerasEnlaces{
+    align-items: center;
+    justify-content: space-around;
+}
+
+header{
+    background-color: orangered;
+}
