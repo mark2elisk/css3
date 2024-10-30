@@ -1,6 +1,8 @@
 body {
-    margin: 0;
+    margin: 50px;
+    margin-top: 0;
     padding: 0;
+    font: verdana;
 }
 
 nav {
@@ -26,4 +28,67 @@ nav a:hover {
 
 header{
     background-color: orangered;
+}
+
+.bloque4{
+    background-color: black;
+    color: #ffffff;
+    padding: 22px;
+}
+
+.bloque4 h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: auto ;
+}
+
+.bloque5 {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin: auto ;
+}
+
+.card {
+    flex: 1;
+    margin: 0px;
+    padding: 85px;
+    color: white;
+    text-align: center;
+}
+
+.tendencia {
+    background-color: #fba304 ; 
+}
+
+.crides {
+    background-color: #c4d434 ; 
+}
+
+.edcamps {
+    background-color:  #837bc3;
+}
+
+.bloque6{
+    display: flex;
+    margin-top: 0px;
+    margin: auto ;
+}
+
+.Actualitat{
+    display: flex;
+    flex-direction: column;
+}
+
+.Noves{
+    background-color: blue;
+}
+
+.EduDema{
+    background-color: rgb(185, 183, 183);
+}
+
+.blog{
+    background-color: grey;
 }
